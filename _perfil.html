@@ -1,0 +1,333 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+  <title>Treinar.me</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/framework.css">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
+  <!-- Don't forget to update PWA version (must be same) in pwa.js & manifest.json -->
+  <link rel="manifest" href="_manifest.json" data-pwa-version="set_by_pwa.js">
+  <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+
+<body class="theme-light" data-highlight="blue2">
+
+  <div id="page">
+
+    <div id="page-preloader">
+      <div class="loader-main"><div class="preload-spinner border-highlight"></div></div>
+    </div>
+
+    <div class="header header-fixed header-logo-app">
+      <a href="_painel.html" class="back-button header-title">Painel</a>
+      <a href="#" class="header-icon header-icon-1 back-button"><i class="fas fa-arrow-left"></i></a>
+      <a href="_signin.html" class="header-icon header-icon-2"><i class="fas fa-sign-out-alt"></i></a>
+    </div>
+
+    <div class="footer-menu footer-5-icons">
+      <a href="_painel.html"><i class="fa fa-home"></i><span>Painel</span></a>
+      <a href="_contatos.html"><i class="fa fa-envelope"></i><span>Contatos</span></a>
+      <a href="_perfil.html" class="active-nav"><i class="fa fa-user"></i><span>Perfil</span></a>
+      <a href="_avaliacoes.html"><i class="fa fa-star"></i><span>Avaliações</span></a>
+      <a href="page-menu.html"><i class="fa fa-bars"></i><span>Menu</span></a>
+      <div class="clear"></div>
+    </div>
+
+    <div class="page-content header-clear-large">
+
+      <div class="profile-header bottom-25">
+        <div class="profile-left">
+          <h1>Julia Ornelas<i class="fa fa-check-circle color-highlight"></i></h1>
+          <div class="font-11 color-dark1-light"><i class="fa fa-award"></i> CREF 135777-G/SP</div>
+          <div class="top-5">
+            <p>
+              Personal Trainer
+              <br>Corrida de rua
+              <br>Assessoria online
+              <br>Grupos especiais: lesão, idosos, doenças crônicas, cardiopatias
+            </p>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="profile-right">
+          <a href="#" class="bottom-15">
+            <img src="images/empty.png" data-src="https://res.cloudinary.com/treinarme/image/fetch/c_fill,f_auto,g_face,h_110,q_100,w_110/http://treinarme-prod.s3.amazonaws.com/images%252Fprofile%252F1485273771609-0ecop79ash40rl4p-093f0a3a0f-p1257-IMG_4869.JPG" class="preload-image shadow-large">
+          </a>
+          <div class="clear"></div>
+          <div class="review-stars text-center">
+            <a href="#" class="color-theme">
+              <i class="fa fa-star color-yellow1-dark"></i>
+              <i class="fa fa-star color-yellow1-dark"></i>
+              <i class="fa fa-star color-yellow1-dark"></i>
+              <i class="fa fa-star color-yellow1-dark"></i>
+              <i class="fa fa-star color-yellow1-dark"></i>
+              <div class="clear"></div>
+              <span class="font-12 color-dark1-light">&nbsp;4 avaliações</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content bottom-0">
+        <div class="one-half">
+          <a href="#" class="button button-xs round-small shadow-large bg-highlight button-full bottom-30">Editar perfil</a>
+          <!-- <a href="#" class="button button-xs round-small shadow-large bg-highlight button-full bottom-30">Enviar mensagem</a> -->
+        </div>
+        <div class="one-half last-column">
+          <a href="#" class="button button-xs round-small shadow-large button-border button-full border-highlight color-highlight bg-transparent bottom-0">Ler avaliações</a>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div class="divider divider-margins bottom-40"></div>
+
+      <!-- Fotos -->
+      <div class="content bottom-20">
+        <!-- <div class="content-title has-border border-highlight bottom-20">
+          <h5>Fotos</h5>
+        </div> -->
+
+        <div class="gallery gallery-thumbs gallery-square">
+          <a class="default-link" data-lightbox="gallery-2" href="images/pictures/20t.jpg">
+            <img src="images/empty.png" data-src="images/pictures/20s.jpg" class="preload-image round-small shadow-huge responsive-image" alt="img">
+          </a>
+          <a class="default-link" data-lightbox="gallery-2" href="images/pictures/21t.jpg">
+            <img src="images/empty.png" data-src="images/pictures/21s.jpg" class="preload-image round-small shadow-huge responsive-image" alt="img">
+          </a>
+          <a class="default-link" data-lightbox="gallery-2" href="images/pictures/22t.jpg">
+            <img src="images/empty.png" data-src="images/pictures/22s.jpg" class="preload-image round-small shadow-huge responsive-image" alt="img">
+          </a>
+          <a class="default-link" data-lightbox="gallery-2" href="images/pictures/23t.jpg">
+            <img src="images/empty.png" data-src="images/pictures/23s.jpg" class="preload-image round-small shadow-huge responsive-image" alt="img">
+          </a>
+          <a class="default-link" data-lightbox="gallery-2" href="images/pictures/24t.jpg">
+            <img src="images/empty.png" data-src="images/pictures/24s.jpg" class="preload-image round-small shadow-huge responsive-image" alt="img">
+          </a>
+          <a class="default-link" data-lightbox="gallery-2" href="images/pictures/25t.jpg">
+            <img src="images/empty.png" data-src="images/pictures/25s.jpg" class="preload-image round-small shadow-huge responsive-image" alt="img">
+          </a>
+        </div>
+
+      </div>
+
+      <div class="divider divider-margins bottom-40"></div>
+
+      <!-- Avaliações -->
+      <div class="content">
+        <div class="content-title has-border border-highlight bottom-30">
+          <h5>AVALIAÇÕES (4)</h5>
+          <span class="color-dark1-light">100% dos alunos recomendam</span>
+        </div>
+
+        <div class="review">
+          <h5 class="font-15 bottom-0">Acir Padilha Jr.
+            <span class="review-stars font-13 float-right">
+              <i class="fa fa-star color-yellow1-dark right-5"></i>
+              <i class="fa fa-star color-yellow1-dark right-5"></i>
+              <i class="fa fa-star color-yellow1-dark right-5"></i>
+              <i class="fa fa-star color-yellow1-dark right-5"></i>
+              <i class="fa fa-star color-yellow1-dark"></i>
+            </span>
+          </h5>
+          <span class="font-11 color-theme">
+            <i class="fa fa-check-circle color-green1-dark"></i> Aluno verificado
+            <span class="color-theme opacity-50">- há 12 dias atrás</span>
+          </span>
+          <div class="top-20">
+            <strong>Experiência durante as negociações</strong>
+            <p>Júlia procura sempre adaptar-se para atender as necessidades do aluno.</p>
+          </div>
+          <div>
+            <strong>Métodos de treino e comunicação</strong>
+            <p>Excelente, muito profissional e atualizada buscando atingir meus objetivos com segurança. Transmite muito bem as técnicas de execução e cuidados.</p>
+          </div>
+          <div>
+            <strong>Porque eu recomendo</strong>
+            <p>Excelente profissional, atualizada e conscenciosa, trazendo o melhor para meus treinos com segurança. Comunicativa e uma pessoa muito agradável.</p>
+          </div>
+        </div>
+
+        <div class="dropdown-content" id="dropdown-avaliacoes">
+
+          <div class="divider divider-margins bottom-30"></div>
+
+          <div class="review">
+            <h5 class="font-15 bottom-0">Cristian Holovko
+              <span class="review-stars font-13 float-right">
+                <i class="fa fa-star color-yellow1-dark right-5"></i>
+                <i class="fa fa-star color-yellow1-dark right-5"></i>
+                <i class="fa fa-star color-yellow1-dark right-5"></i>
+                <i class="fa fa-star color-yellow1-dark right-5"></i>
+                <i class="fa fa-star color-yellow1-dark"></i>
+              </span>
+            </h5>
+            <span class="font-11 color-theme">
+              <i class="fa fa-check-circle color-green1-dark"></i> Aluno verificado
+              <span class="color-theme opacity-50">- há 3 meses atrás</span>
+            </span>
+            <div class="top-20">
+              <strong>Experiência durante as negociações</strong>
+              <p>Muito boa. Rápida e pontual.</p>
+            </div>
+            <div>
+              <strong>Métodos de treino e comunicação</strong>
+              <p>Ela conseguiu fazer exatamente o treino que eu precisava pra recomeçar, e pouco tempo depois já estava a todo vapor.</p>
+            </div>
+            <div>
+              <strong>Porque eu recomendo</strong>
+              <p>Ela é muito boa na escolha e super cuidadosa na execução dos exercícios, além de ser extremamente gente fina!</p>
+            </div>
+          </div>
+
+          <div class="divider divider-margins bottom-30"></div>
+
+          <div class="review">
+            <h5 class="font-15 bottom-0">Diogo Santos
+              <span class="review-stars font-13 float-right">
+                <i class="fa fa-star color-yellow1-dark right-5"></i>
+                <i class="fa fa-star color-yellow1-dark right-5"></i>
+                <i class="fa fa-star color-yellow1-dark right-5"></i>
+                <i class="fa fa-star color-yellow1-dark right-5"></i>
+                <i class="fa fa-star color-yellow1-dark"></i>
+              </span>
+            </h5>
+            <span class="font-11 color-theme">
+              <i class="fa fa-check-circle color-green1-dark"></i> Aluno verificado
+              <span class="color-theme opacity-50">- há 9 meses atrás</span>
+            </span>
+            <div class="top-20">
+              <strong>Experiência durante as negociações</strong>
+              <p>Foi muito tranquilo</p>
+            </div>
+            <div>
+              <strong>Métodos de treino e comunicação</strong>
+              <p>Os métodos de treino são claros e objetivos.</p>
+            </div>
+            <div>
+              <strong>Porque eu recomendo</strong>
+              <p>Recomendo a Julia devido ao fato de ter atingido os objetivos de 2017, ter novos objetivos para 2018 e por ela ser uma profissional de excelência</p>
+            </div>
+          </div>
+
+          <div class="divider divider-margins bottom-30"></div>
+
+          <div class="review">
+            <h5 class="font-15 bottom-0">Fernando Rodrigues
+              <span class="review-stars font-13 float-right">
+                <i class="fa fa-star color-yellow1-dark right-5"></i>
+                <i class="fa fa-star color-yellow1-dark right-5"></i>
+                <i class="fa fa-star color-yellow1-dark right-5"></i>
+                <i class="fa fa-star color-yellow1-dark right-5"></i>
+                <i class="fa fa-star color-yellow1-dark"></i>
+              </span>
+            </h5>
+            <span class="font-11 color-theme">
+              <i class="fa fa-check-circle color-green1-dark"></i> Aluno verificado
+              <span class="color-theme opacity-50">- há 2 anos atrás</span>
+            </span>
+            <div class="top-20">
+              <strong>Experiência durante as negociações</strong>
+              <p>Excelente. Honestidade e transparência.</p>
+            </div>
+            <div>
+              <strong>Métodos de treino e comunicação</strong>
+              <p>Perfeitos. Infelizmente, parei por conta dos compromissos profissionais.</p>
+            </div>
+            <div>
+              <strong>Porque eu recomendo</strong>
+              <p>Trabalho completo, inclusive na parte aeróbica.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <a href="#" class="button button-xxs button-center-huge button-round-huge button-border border-highlight color-highlight bg-transparent" data-dropdown="dropdown-avaliacoes">Ver todas as avaliações (4)</a>
+
+      </div>
+
+      <div class="divider divider-margins bottom-40"></div>
+
+      <!-- Currículo -->
+      <div class="content">
+        <div class="content-title has-border border-highlight bottom-20">
+          <h5>CURRÍCULO</h5>
+        </div>
+        <ul>
+          <li>Bacharelado em Educação Física pela USP</li>
+          <li>Pós-graduação em treinamento de força pela USP (em curso)</li>
+          <li>Treinadora de corrida</li>
+          <li>Experiência com alunos em condições especiais (lesão, idosos, doenças crônicas, cardiopatias)</li>
+          <li>Atuação em pesquisa de biomecânica, Lab. Biomecânica EEFE-USP</li>
+        </ul>
+      </div>
+
+      <div class="divider divider-margins bottom-40"></div>
+
+      <!-- Especialidades -->
+      <div class="content">
+        <div class="content-title has-border border-highlight bottom-20">
+          <h5>ESPECIALIDADES</h5>
+        </div>
+        <a href="#" class="chip chip-small bg-gray1-dark">
+          <i class="fas fa-running bg-green1-dark"></i>
+          <span class="color-black">Corrida</span>
+        </a>
+        <a href="#" class="chip chip-small bg-gray1-dark">
+          <i class="fas fa-weight bg-green1-dark"></i>
+          <span class="color-black">Emagrecimento</span>
+        </a>
+        <a href="#" class="chip chip-small bg-gray1-dark">
+          <i class="fas fa-hand-holding-medical bg-green1-dark"></i>
+          <span class="color-black">Grupos de risco</span>
+        </a>
+        <a href="#" class="chip chip-small bg-gray1-dark">
+          <i class="fas fa-dumbbell bg-green1-dark"></i>
+          <span class="color-black">Hipertrofia</span>
+        </a>
+        <a href="#" class="chip chip-small bg-gray1-dark">
+          <i class="fas fa-swimmer bg-green1-dark"></i>
+          <span class="color-black">Natação</span>
+        </a>
+        <a href="#" class="chip chip-small bg-gray1-dark">
+          <i class="fas fa-heartbeat bg-green1-dark"></i>
+          <span class="color-black">Condicionamento</span>
+        </a>
+      </div>
+
+      <div class="divider divider-margins bottom-40"></div>
+
+
+      <!-- Redes Sociais -->
+      <div class="content">
+        <div class="content-title has-border border-highlight bottom-0">
+          <h5>REDES SOCIAIS</h5>
+        </div>
+        <div class="link-list link-list-1">
+          <a href="https://www.instagram.com/juliaornelas" target="_blank">
+            <i class="fab fa-instagram color-instagram"></i>
+            <span>@juliaornelas</span>
+            <i class="fa fa-link"></i>
+          </a>
+          <a href="https://www.facebook.com/JuliaOrnelasPersonalTrainer/">
+            <i class="fab fa-facebook color-facebook"></i>
+            <span>JuliaOrnelasPersonalTrainer</span>
+            <i class="fa fa-link"></i>
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="menu-hider"></div>
+  </div>
+
+  <script type="text/javascript" src="scripts/jquery.js"></script>
+  <script type="text/javascript" src="scripts/plugins.js"></script>
+  <script type="text/javascript" src="scripts/custom.js" async></script>
+</body>
