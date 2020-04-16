@@ -232,6 +232,7 @@ h5{font-size:17px; line-height:22px}
 .bolder{font-weight:700!important}
 .ultrabold{font-weight:900!important}
 .font-italic{font-style: italic;}
+.font-underline{text-decoration:underline;}
 .font-regular{font-style: normal;}
 .font-none{text-transform:none!important;}
 .font-uppercase{text-transform:uppercase!important;}
