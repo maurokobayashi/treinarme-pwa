@@ -47,41 +47,37 @@
       </div>
 
       <div class="search-page">
-        <form autocomplete="false" action="contato.html" class="search-box search-color content round-huge bottom-30">
+        <form autocomplete="false" action="contato.html" class="search-box search-color content round-huge bottom-5">
           <i class="fa fa-search"></i>
           <input type="text" placeholder="Busque pelo nome..." data-search>
           <i class="fa fa-times disabled color-red2-dark"></i>
         </form>
 
-        <div class="content bottom-40">
-          <a href="#" class="chip chip-no-icon chip-small bg-gray1-light">
-            <span>Pendente (4)</span>
+        <div class="content bottom-30">
+
+          <a href="#" data-dropdown="dropdown-1" class="dropdown-style-1 bottom-5">
+            <i class="fa fa-filter color-theme"></i>
+            <p class="color-theme">Fitrar por status</p>
+            <i class="fa dropdown-icon fa-angle-down color-theme"></i>
           </a>
-          <a href="#" class="chip chip-no-icon chip-small bg-gray1-light">
-            <span>Aguardando (6)</span>
-          </a>
-          <a href="#" class="chip chip-no-icon chip-small bg-gray1-light">
-            <span>Não consegui contato (4)</span>
-          </a>
-          <a href="#" class="chip chip-no-icon chip-small bg-gray1-light">
-            <span>Aluno desistiu (10)</span>
-          </a>
-          <a href="#" class="chip chip-no-icon chip-small bg-gray1-light">
-            <span>Não me interessei (10)</span>
-          </a>
-          <a href="#" class="chip chip-no-icon chip-small bg-gray1-light">
-            <span>Aula teste agendada (2)</span>
-          </a>
-          <a href="#" class="chip chip-no-icon chip-small bg-gray1-light">
-            <span>Contrato fechado (8)</span>
-          </a>
-          <div class="clear"></div>
+          <div class="dropdown-content" id="dropdown-1">
+            <div class="link-list link-list-1 link-list-no-icon">
+              <a href="#"><span>Pendentes (4)</span><i class="fa fa-angle-right"></i></a>
+              <a href="#"><span>Aguardando retorno (6)</span><i class="fa fa-angle-right"></i></a>
+              <a href="#"><span>Não consegui contato (4)</span><i class="fa fa-angle-right"></i></a>
+              <a href="#"><span>Aluno desistiu (10)</span><i class="fa fa-angle-right"></i></a>
+              <a href="#"><span>Não me interessei (10)</span><i class="fa fa-angle-right"></i></a>
+              <a href="#"><span>Aula teste agendada (2)</span><i class="fa fa-angle-right"></i></a>
+              <a href="#" class="no-border"><span>Contrato fechado (8)</span><i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+
           <a href="#" class="chip chip-small bg-gray1-light">
-            <i class="fa fa-star bg-yellow1-light"></i>
+            <i class="fa fa-star bg-gray2-dark"></i>
             <span class="color-black">Com estrela (8)</span>
           </a>
           <a href="#" class="chip chip-small bg-gray1-light">
-            <i class="fa fa-trash bg-red2-light"></i>
+            <i class="fa fa-trash bg-gray2-dark"></i>
             <span class="color-black">Lixeira (2)</span>
           </a>
         </div>

@@ -170,7 +170,7 @@ i{min-width:12px;}
 .responsive-image{display:block; height:auto; max-width:100%; overflow:hidden;}
 .round-image{border-radius:100%;}
 /*Typography*/
-p{line-height: 26px; margin-bottom: 30px; font-size:13px; color:#6c6c6c;}
+p{line-height: 22px; margin-bottom: 30px; font-size:13px; color:#6c6c6c;}
 p strong{color:#1f1f1f;}
 h1, h2, h3, h4, h5, h6{
     margin-bottom:5px;
