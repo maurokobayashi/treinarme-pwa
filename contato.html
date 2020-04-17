@@ -24,6 +24,13 @@
       <div class="loader-main"><div class="preload-spinner border-highlight"></div></div>
     </div>
 
+    <div class="toasts">
+      <div class="toast toast-top" id="toast-estrela">
+        <p class="color-white"><i class='fa fa-check right-10'></i> Contato com estrela </p>
+        <div class="toast-bg bg-green1-dark"></div>
+      </div>
+    </div>
+
     <div class="header header-fixed header-logo-center">
       <a href="signin.html" class="header-logo font-14">Treinar.me</a>
       <a href="javascript:window.history.back();" class="header-icon header-icon-1 back-button"><i class="fas fa-arrow-left"></i></a>
@@ -43,22 +50,27 @@
       <div class="page-title has-subtitle">
         <div class="page-title-left">
           <h1>Mariana dos Santos</h1>
-          <span class="color-highlight">Hoje às 11:20 - Pendente</span>
+          <span class="color-dark1-light thiner">Recebido hoje às 11h20</span>
         </div>
         <div class="page-title-right">
-          <a href="#"><i class="fa fa-cog"></i></a>
+          <a href="#" data-menu="action-status" class="icon"><i class="fa fa-cog font-18"></i></a>
         </div>
       </div>
 
       <div class="content bottom-0">
-        <a href="#" data-menu="action-call" class="button button-circle button-icon bg-highlight button-xxs"><i class="fa fa-phone"></i>Falar com Mariana</a>
+        <a href="#" data-menu="action-call" class="button button-round button-icon bg-highlight button-xs"><i class="fa fa-paper-plane"></i>Falar com Mariana</a>
       </div>
 
       <div class="content bottom-40">
+        <div class="vcard-field">
+          <strong>Status</strong>
+          <div><a href="#" class="top-0" data-menu="action-status">Pendente</a></div>
+          <i class="fa fa-cog"></i>
+        </div>
         <div class="vcard-field"><strong>Mensagem</strong><div class="right-20 bottom-10">Preciso emagrecer entorno de uns 27 kg mais ou menos, tenho bastante dor na coluna, segundo o ortopedista do pronto socorro que passei, no momento não é pra eu fazer aeróbio, pois se eu perder mais massa eu vou travar a coluna, falou pra fazer só coisas que vão fortaceler e ganhar músculo.</div><i class="fa fa-quote-right"></i></div>
+        <div class="vcard-field"><strong>Idade</strong><div>26 anos</div><i class="fa fa-user"></i></div>
         <div class="vcard-field"><strong>Local</strong><div>Vila Mariana</div><i class="fa fa-map-marker-alt"></i></div>
         <div class="vcard-field"><strong>Horários</strong><div>11h, 12h, 13h</div><i class="fa fa-clock"></i></div>
-        <div class="vcard-field"><strong>Idade</strong><div>26 anos</div><i class="fa fa-user"></i></div>
         <div class="vcard-field no-border"><strong>Início das aulas</strong><div>Nos próximos dias</div><i class="fa fa-info"></i></div>
       </div>
 
@@ -71,14 +83,14 @@
           <div>
             <a href="#" class="top-0" data-menu="action-call">11 98045-6449</a>
           </div>
-          <i class="fa fa-phone"></i>
+          <i class="fa fa-phone no-transparent color-phone"></i>
         </div>
         <div class="vcard-field no-border">
           <strong>Email</strong>
           <div>
             <a href="mailto:" class="top-0">marisantos@gmail.com</a>
           </div>
-          <i class="fa fa-envelope"></i>
+          <i class="fa fa-envelope no-transparent color-highlight"></i>
         </div>
       </div>
 
@@ -88,12 +100,12 @@
         </div>
 
         <div class="link-list link-list-1">
-          <a href="#">
+          <a href="#" data-menu="action-status">
             <i class="color-theme fa fa-cog"></i>
             <span>Alterar status</span>
             <i class="fa fa-angle-right"></i>
           </a>
-          <a href="#">
+          <a href="#" data-toast-manual-id="toast-estrela">
             <i class="color-theme fa fa-star"></i>
             <span>Marcar com estrela</span>
             <i class="fa fa-angle-right "></i>
@@ -103,7 +115,7 @@
             <span>Reportar abuso</span>
             <i class="fa fa-angle-right "></i>
           </a>
-          <a href="#" class="no-border">
+          <a href="#" data-menu="action-apagar" class="no-border">
             <i class="color-theme fa fa-trash"></i>
             <span>Apagar contato</span>
 
@@ -112,7 +124,61 @@
         </div>
       </div>
 
-      <div class="divider divider-margins"></div>
+      <div class="clear top-30"></div>
+    </div>
+
+    <!-- Status Sheet -->
+    <div id="action-status"
+      class="menu-box menu-box-detached round-medium"
+      data-menu-type="menu-box-bottom"
+      data-menu-height="auto"
+      data-menu-effect="menu-parallax">
+
+      <div class="page-title has-subtitle">
+        <div class="page-title-left">
+          <a href="#">Status</a>
+          <span class="color-highlight top-5">PENDENTE</span>
+        </div>
+        <div class="page-title-right">
+          <a href="#" class="close-menu"><i class="fa fa-times-circle font-20 color-gray1-dark"></i></a>
+        </div>
+      </div>
+
+      <div class="content bottom-20">
+        <div class="link-list link-list-1 link-list-small link-list-no-icon">
+          <a href="#" class="close-menu"><span>Pendente</span><i class="fa fa-angle-right"></i></a>
+          <a href="#" class="close-menu"><span>Aguardando retorno</span><i class="fa fa-angle-right"></i></a>
+          <a href="#" class="close-menu"><span>Não consegui contato</span><i class="fa fa-angle-right"></i></a>
+          <a href="#" class="close-menu"><span>Aluno desistiu</span><i class="fa fa-angle-right"></i></a>
+          <a href="#" class="close-menu"><span>Não me interessei</span><i class="fa fa-angle-right"></i></a>
+          <a href="#" class="close-menu"><span>Aula teste agendada</span><i class="fa fa-angle-right"></i></a>
+          <a href="#" class="close-menu no-border"><span>Contrato fechado</span><i class="fa fa-angle-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Apagar Sheet-->
+    <div id="action-apagar"
+    class="menu-box menu-box-detached round-medium"
+    data-menu-type="menu-box-bottom"
+    data-menu-height="auto"
+    data-menu-effect="menu-parallax">
+
+      <div class="page-title has-subtitle">
+        <div class="page-title-left">
+          <a href="#">Apagar contato?</a>
+        </div>
+        <div class="page-title-right">
+          <a href="#" class="close-menu"><i class="fa fa-times-circle font-20 color-gray1-dark"></i></a>
+        </div>
+      </div>
+
+      <div class="content bottom-0">
+        <p>
+          Este contato não aparecerá mais em sua lista
+        </p>
+        <a href="#" class="close-menu button button-full button-m round-small bg-red1-dark">Apagar</a>
+      </div>
     </div>
 
     <!-- Call Sheet-->
@@ -132,8 +198,8 @@
         <p class="font-14 boxed-text-large">
           11 98045-6449
         </p>
-        <a href="https://wa.me/5511980456449?text=Olá%20Mariana.%20Recebi%20seu%20contato%20pelo%20site%20Treinar.me" class="one-half button button-circle shadow-huge button-icon bg-whatsapp button-s"><i class="fab fa-whatsapp"></i>WhatsApp</a>
-        <a href="tel:11980456449" class="one-half button button-circle shadow-huge button-icon bg-highlight button-s"><i class="fa fa-phone"></i>Ligar</a>
+        <a href="https://wa.me/5511980456449?text=Olá%20Mariana.%20Recebi%20seu%20contato%20pelo%20site%20Treinar.me" class="one-half button button-circle button-icon bg-whatsapp button-s"><i class="fab fa-whatsapp"></i>WhatsApp</a>
+        <a href="tel:11980456449" class="one-half button button-circle button-icon bg-highlight button-s"><i class="fa fa-phone"></i>Ligar</a>
       </div>
 
       <div class="clear top-20">&nbsp;</div>

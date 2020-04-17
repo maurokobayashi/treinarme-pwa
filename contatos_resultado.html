@@ -44,7 +44,7 @@
 
     <div class="footer-menu footer-4-icons">
       <a href="perfil.html"><i class="fa fa-home"></i><span>Painel</span></a>
-      <a href="#" class="active-nav" data-notification="notification-1"><i class="fa fa-envelope"></i><span>Contatos</span></a>
+      <a href="contatos.html" class="active-nav"><i class="fa fa-envelope"></i><span>Contatos</span></a>
       <a href="perfil.html"><i class="fa fa-user"></i><span>Perfil</span></a>
       <a href="avaliacoes.html"><i class="fa fa-star"></i><span>Avaliações</span></a>
       <div class="clear"></div>
@@ -52,26 +52,27 @@
 
     <div class="page-content header-clear">
 
-      <div class="page-title has-subtitle">
+      <!-- <div class="page-title has-subtitle">
         <div class="page-title-left">
           <h1>Buscar contatos</h1>
         </div>
-      </div>
+      </div> -->
 
-      <div class="search-page">
+      <div class="search-page top-20">
         <form autocomplete="false" action="contatos_resultado.html" class="search-box search-color content round-huge bottom-0">
           <i class="fa fa-search"></i>
           <input type="text" placeholder="Busque pelo nome..." data-search>
           <i class="fa fa-times disabled color-red2-dark"></i>
         </form>
 
-        <div class="content bottom-10">
+        <div class="content bottom-0">
 
           <a href="#" data-dropdown="dropdown-1" class="dropdown-style-1">
             <i class="fa fa-filter color-dark1-light font-11"></i>
-            <p class="color-dark1-light font-13 thiner">Filtrar por status</p>
+            <p class="color-dark1-light font-13 thiner">Mostrar por status</p>
             <i class="fa dropdown-icon fa-angle-down color-dark1-light"></i>
           </a>
+
           <div class="dropdown-content" id="dropdown-1">
             <div class="link-list link-list-small link-list-1 link-list-no-icon">
               <a href="contatos_resultado.html"><span>Pendentes (4)</span><i class="fa fa-angle-right"></i></a>
@@ -88,23 +89,25 @@
 
         </div>
 
-        <div class="divider divider-margins bottom-5"></div>
+        <!-- <div class="divider divider-margins bottom-5"></div> -->
 
         <div class="content">
+          <div class="color-dark1-light font-11 top-5">Exibindo 3 resultados para: 'Mari'</div>
+
           <div class="link-list link-list-2 link-list-long-border link-list-no-icon">
             <a href="contato.html">
               <span>Mariana dos Santos, 26</span>
-              <strong><i class="fa fa-map-marker-alt"></i>Vila Mariana - há 1 hora</strong>
+              <strong><i class="fa fa-map-marker-alt"></i>Vila Mariana - Pendente</strong>
               <i class="fa fa-angle-right"></i>
             </a>
             <a href="contato.html">
               <span>Ricardo Valdez, 48</span>
-              <strong><i class="fa fa-map-marker-alt"></i>Vila Mariana - há 2 dias</strong>
+              <strong><i class="fa fa-map-marker-alt"></i>Vila Mariana - Aguardando retorno</strong>
               <i class="fa fa-angle-right"></i>
             </a>
             <a href="contato.html" class="no-border">
               <span>Damares Alves, 65</span>
-              <strong><i class="fa fa-map-marker-alt"></i>Paraíso - há 1 semana</strong>
+              <strong><i class="fa fa-map-marker-alt"></i>Paraíso - Contrato fechado</strong>
               <i class="fa fa-angle-right"></i>
             </a>
           </div>

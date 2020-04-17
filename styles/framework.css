@@ -3630,6 +3630,7 @@ input[type=file]{
 	right:0px;
 	opacity:0.1;
 }
+.vcard-field i.no-transparent{opacity:1!important;}
 .vcard-field a{
 	color:#000;
 	font-weight:500;
