@@ -7,7 +7,7 @@
 "name" : "Treinar.me",
 "scope" : "/",
 "display" : "fullscreen",
-"start_url" : "perfil.html?source=pwa",
+"start_url" : "signin.html?source=pwa",
 "short_name" : "Treinar.me",
 "description" : "",
 "orientation" : "portrait",

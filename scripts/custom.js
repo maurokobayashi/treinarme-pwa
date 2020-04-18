@@ -1104,7 +1104,9 @@ $(document).ready(function(){
             ["gray2","#CCD1D9","#AAB2BD","#88919d"],
             ["dark1","#656D78","#434A54","#242b34"],
             ["dark2","#3C3B3D","#323133","#1c191f"],
-            ["custom1","#FD6B80","#FC6388","#FB5A90"]
+            ["custom1","#FD6B80","#FC6388","#FB5A90"],
+            ["custom2","#8422D3","#A637AC","#B6419A"],
+
         ];
         var socialArray = [
             ["facebook","#3b5998"],
