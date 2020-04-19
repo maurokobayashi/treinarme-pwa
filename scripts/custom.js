@@ -1106,6 +1106,7 @@ $(document).ready(function(){
             ["dark2","#3C3B3D","#323133","#1c191f"],
             ["custom1","#FD6B80","#FC6388","#FB5A90"],
             ["custom2","#8422D3","#A637AC","#B6419A"],
+            ["custom3","#41E197","#3DC8A8","#3BB5B5"]
 
         ];
         var socialArray = [

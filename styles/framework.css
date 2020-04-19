@@ -3805,9 +3805,8 @@ input[type=file]{
 	padding:10px 15px;
 	margin-bottom:15px;
 	line-height:22px;
-	font-size:15px;
-    letter-spacing: .2px;
-	background-color:#FC6388;
+	font-size:14px;
+	background-color:#3DC8A8;
 	overflow: hidden;
 }
 .speech-bubble:after {content: ''; display: block; clear: both;}
